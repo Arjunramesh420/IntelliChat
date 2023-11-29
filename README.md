@@ -29,19 +29,13 @@ Navigate to the project directory:
 npm start
 Visit http://localhost:3000 in your browser to interact with IntelliChat.
 
-Chatbot Flow
-Greetings: IntelliChat starts by greeting the user.
-Ask Name: Asks the user to enter their name.
-Name: Greets the user using their entered name and prompts them to select their industry.
-Industry: Presents options for industries (IT, Human Resources).
-IT/HR: Thanks the user for choosing a specific industry.
-Customize
+
 Feel free to customize the chatbot by modifying the steps array in the App.js file. Update messages, add more steps, or change the conversation flow.
 
 Contributing
 Contributions are welcome! If you find a bug or have suggestions, please open an issue.
 
-License
+License:
 This project is licensed under the Arjunramesh420.
 
 
