@@ -35,7 +35,7 @@ Feel free to customize the chatbot by modifying the steps array in the App.js fi
 Contributing
 Contributions are welcome! If you find a bug or have suggestions, please open an issue.
 
-License
+License:
 This project is licensed under the Arjunramesh420.
 
 
