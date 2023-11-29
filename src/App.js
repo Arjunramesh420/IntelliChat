@@ -6,7 +6,7 @@ function App() {
   const steps = [
     {
       id:'Greetings!',
-      message:'Hello I am Telexa',
+      message:'Hello I am IntelliChat',
       trigger:'Ask Name'
     },
   {
