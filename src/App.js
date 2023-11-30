@@ -1,73 +1,13 @@
 import React from 'react';
-import Chatbot from 'react-simple-chatbot';
-import { Segment } from 'semantic-ui-react';
-// import './App.css';
+import Steps from './Steps';
 
-function App(){
-  const chatbotStyle = {
-    cursor: 'pointer',
-    position: 'fixed',
-    bottom: '10px',
-    right: '20px',
-    backgroundColor: '#007bff',
-    color: '#fff',
-    border: 'none',
-    padding: '10px',
-    borderRadius: '70%',
-    boxShadow: '0px 2px 5px rgba(0, 0, 0, 0.1)',
-  };
-  
-
-  const steps = [
-    {
-      id: 'Greetings!',
-      message: 'Hello, I am IntelliChat',
-      trigger: 'Ask Name',
-    },
-    {
-      id: 'Ask Name',
-      message: 'Please enter your name',
-      trigger: 'Waiting1',
-    },
-    {
-      id: 'Waiting1',
-      user: true,
-      trigger: 'Name',
-    },
-    {
-      id: 'Name',
-      message: 'Hi {previousValue}. Please select your industry',
-      trigger: 'Industries',
-    },
-    {
-      id: 'Industries',
-      options: [
-        { value: 'Information Technology', label: 'Information Technology', trigger: 'IT' },
-        { value: 'Human Resources', label: 'Human Resources', trigger: 'HR' },
-      ],
-    },
-    {
-      id: 'IT',
-      message: 'Thanks for choosing the Information Technology Industry',
-      end: true,
-    },
-    {
-      id: 'HR',
-      message: 'Thanks for choosing the Human Resources Industry',
-      end: true,
-    },
-  ];
-
+function App()
+{
+    
   return (
-    <>
-      <Segment floated='right'>
-      <div style={chatbotStyle} className="chatbot-icon">
-        <Chatbot steps={steps} />
-        </div>
-       
-      </Segment>
-       
-    </>
+    <div className="App">
+      <Steps/> 
+    </div>
   );
 }
 
