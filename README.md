@@ -32,10 +32,14 @@ Visit http://localhost:3000 in your browser to interact with IntelliChat.
 
 Feel free to customize the chatbot by modifying the steps array in the App.js file. Update messages, add more steps, or change the conversation flow.
 
+Hosting
+This project is now hosted online! You can access IntelliChat at https://intelli-chat-amber.vercel.app/.
+
 Contributing
 Contributions are welcome! If you find a bug or have suggestions, please open an issue.
 
 License:
 This project is licensed under the Arjunramesh420.
+https://intelli-chat-amber.vercel.app/
 
 
